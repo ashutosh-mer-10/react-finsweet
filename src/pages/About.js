@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Recentep from "../components/Recentep";
 import BannerImg from "../images/about-banner-img.png";
-import InfoIcon from "../images/about-info-icon.png";
 import { About_Info_Data } from "../data/logo-data";
 import Few_Words_Img from "../images/few-words-img.png";
 import Oursponsers from "../components/Oursponsers";

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Bannerone from "../components/Bannerone";
 import Twocolumnsecone from "../components/Twocolumnsecone";
 import Twocolumnsectwo from "../components/Twocolumnsectwo";
@@ -10,7 +10,6 @@ import Relatedarticles from "../components/Relatedarticles";
 import Logoslider from "../components/Logoslider";
 
 const Home = () => {
-
   return (
     <>
       <Bannerone
@@ -18,7 +17,7 @@ const Home = () => {
         info="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat."
       />
       <div className="page-wrapper">
-        <Logoslider/>
+        <Logoslider />
         <Twocolumnsecone
           title="A podcast for makers and entrepreneurs"
           info="Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. "
