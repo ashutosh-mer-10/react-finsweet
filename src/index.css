@@ -1,13 +1,266 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+@charset "UTF-8";
+/* CSS Document */
+
+/*==============================================================
+	Common Styles Initials
+==============================================================*/
+
+html {
+  -webkit-text-size-adjust: none;
+  /* Prevent font scaling in landscape */
+  width: 100%;
+  height: 100%;
   -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input[type="submit"] {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
+  width: 100%;
+  min-height: 100%;
+  color: #000000;
+  background: #fff;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  color: #555;
+}
+
+a:hover,
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+
+input,
+textarea,
+select {
+  outline: none;
+  resize: none;
+  font-family: "Open Sans", sans-serif;
+}
+
+a,
+input,
+button {
+  outline: none !important;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+img {
+  border: 0;
+  vertical-align: top;
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+p {
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+
+.slick-slide {
+  outline: none !important;
+}
+
+.bg_img {
+  display: none;
+}
+
+/*==============================================================
+	Bootstrap Hack
+==============================================================*/
+
+.form-control::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+.form-control:-moz-placeholder {
+  opacity: 1;
+}
+
+.form-control::-moz-placeholder {
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  opacity: 1;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus,
+.nav > li.active > a,
+.nav > li.active > a:focus {
+  background: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/*==============================================================
+	Custom Style
+==============================================================*/
+
+.container {
+  max-width: 1230px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+/*Common section starts*/
+
+h1,
+.h1 {
+  font-size: 48px;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+h2,
+.h2 {
+  font-size: 32px;
+  line-height: 1.19;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+
+h3,
+.h3 {
+  font-size: 24px;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+
+h4,
+.h4 {
+  font-size: 20px;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+
+h5,
+.h5 {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+
+h6,
+.h6 {
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+
+@media (max-width: 991px) {
+  h1,
+  .h1 {
+    font-size: 38px;
+  }
+
+  h2,
+  .h2 {
+    font-size: 28px;
+  }
+
+  h3,
+  .h3 {
+    font-size: 22px;
+  }
+
+  h4,
+  .h4 {
+    font-size: 18px;
+  }
+
+  h5,
+  .h5 {
+    font-size: 14px;
+  }
+
+  h6,
+  .h6 {
+    font-size: 12px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  h1,
+  .h1 {
+    font-size: 34px;
+  }
+
+  h2,
+  .h2 {
+    font-size: 26px;
+  }
+
+  h3,
+  .h3 {
+    font-size: 20px;
+  }
 }

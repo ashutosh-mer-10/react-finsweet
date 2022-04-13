@@ -1,0 +1,252 @@
+@media (max-width: 991px) {
+  .page-wrapper,
+  .section {
+    padding: 42px 0;
+  }
+
+  .img-box img {
+    width: 100%;
+  }
+  .section-bg {
+    padding: 84px 0;
+  }
+
+  .banner-padding {
+    padding: 120px 0;
+  }
+
+  .banner-wrap .content-box {
+    max-width: none;
+  }
+
+  .logo-slider .swiper {
+    margin-top: 2rem;
+  }
+
+  .recentep-data-box .recent-ep-box {
+    margin-bottom: 30px;
+  }
+
+  .two-column-wrap .row {
+    flex-direction: column-reverse;
+  }
+
+  .two-column-wrap.left-side-img .row {
+    flex-direction: column-reverse;
+  }
+
+  .two-column-wrap .content-box {
+    margin-top: 1rem;
+    margin-left: 0;
+    max-width: none;
+  }
+
+  .banner-wrap .container .img-box {
+    margin-top: 1rem;
+    padding: 0 50px;
+  }
+
+  .recent-ep-box .btn-wrap .icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .listener-box {
+    margin: 30px 0;
+    height: auto;
+  }
+
+  .cta-banner-one-wrap .container {
+    padding: 60px 15px;
+  }
+
+  .cta-banner-one-wrap .container:after {
+    background-repeat: no-repeat;
+  }
+
+  .cta-banner-one-wrap .icon-box-sm {
+    position: relative;
+    left: auto;
+    transform: none;
+    margin-top: 1.5rem;
+  }
+
+  .cta-banner-one-wrap .form-wrapper form .form-control {
+    height: 41px;
+  }
+
+  .cta-banner-one-wrap .content .title {
+    text-align: center;
+  }
+
+  .cta-banner-one-wrap .content {
+    max-width: none;
+  }
+
+  .cta-banner-one-wrap .form-wrapper form {
+    justify-content: center;
+  }
+
+  .copyright-wrap {
+    padding: 10px 0;
+  }
+
+  .footer-wrap .footer-logo,
+  .footer-wrap .footer-links {
+    margin-bottom: 2.5rem;
+  }
+
+  .footer-wrap .title {
+    margin-bottom: 1rem;
+  }
+
+  .footer-wrap .footer-logo-links ul li:not(:last-child) {
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-wrap {
+    padding-bottom: 4rem;
+  }
+
+  .our-sponsers-wrap .content-box {
+    padding: 3rem;
+  }
+
+  .hero-sec-wrap {
+    height: 500px;
+  }
+
+  .card-info-wrap .card {
+    padding: 40px 25px;
+  }
+  .card-info-wrap .icon {
+    margin-bottom: 4rem;
+  }
+
+  .banner-two-wrap .row {
+    flex-direction: column-reverse;
+  }
+
+  .banner-two-wrap .content .info {
+    margin-bottom: 3rem;
+  }
+
+  .podcast-banner-wrap .content {
+    padding: 60px 40px;
+  }
+  .podcast-banner-wrap {
+    padding: 2rem 0;
+  }
+
+  .single-podcast-wrap .img-box {
+    margin-bottom: 1.5rem;
+  }
+
+  .blockquote-wrap .content {
+    padding: 1rem 2rem;
+  }
+
+  .blockquote-wrap .info {
+    max-width: none;
+    padding: 1rem 2rem;
+  }
+
+  .single-podcast-inner-wrap .blockquote-wrap {
+    margin: 3rem 0 2rem;
+  }
+
+  .social-media-sticky ul li:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .recentep-data-box {
+    margin-top: 3rem;
+  }
+
+  .meet-our-team-wrap .card {
+    margin-bottom: 2rem;
+  }
+
+  .meet-our-team-wrap .card .name,
+  .meet-our-team-wrap .card .designation {
+    margin-bottom: 0.7rem;
+  }
+
+  .our-sponsers-sec .card.bc-sp {
+    height: 240px;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner-padding {
+    padding: 75px 0;
+  }
+
+  .page-wrapper,
+  .section {
+    padding: 32px 0;
+  }
+
+  .section-bg {
+    padding: 64px 0;
+  }
+
+  .recent-ep-box .btn-wrap .icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .listener-box {
+    margin: 20px 0px;
+  }
+
+  .cta-banner-one-wrap .form-wrapper form .form-control {
+    height: 34px;
+  }
+
+  .cta-banner-one-wrap .container {
+    padding: 40px 15px;
+  }
+
+  .card-info-wrap .card {
+    padding: 20px;
+  }
+
+  .card-info-wrap .icon img {
+    width: 100px;
+    height: auto;
+  }
+
+  .card-info-wrap .icon {
+    margin-bottom: 2rem;
+  }
+
+  .hero-sec-wrap {
+    height: auto;
+    padding: 35px 0;
+  }
+
+  .hero-sec-wrap .heartrate-wrap {
+    display: none;
+  }
+
+  .banner-two-wrap .content .info {
+    margin-bottom: 2rem;
+  }
+
+  .podcast-banner-wrap .content {
+    padding: 40px 20px;
+  }
+  .podcast-banner-wrap {
+    padding: 1.5rem 0;
+  }
+
+  .blockquote-wrap .info,
+  .blockquote-wrap .content {
+    padding: 0.5rem 1rem;
+  }
+
+  .recentep-data-box {
+    margin-top: 2rem;
+  }
+}
