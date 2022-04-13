@@ -11,7 +11,7 @@ const Oursponserssec = (props) => {
 
           <div className="row">
             {Our_Sponser_Logo_Sec.map((item, index) => {
-              if (index == 5) {
+              if (index === 5) {
                 return (
                   <>
                     <div className="col-lg-4">
