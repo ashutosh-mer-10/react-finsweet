@@ -2,7 +2,7 @@
   "name": "react-finsweet",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ashutosh-mer-10.github.io/react-finsweet",
+  "homepage": "https://ashutosh-mer-10.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
