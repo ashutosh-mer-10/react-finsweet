@@ -14,7 +14,7 @@ import About from "./pages/About";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-finsweet">
       <div className="App">
         <Header />
         <Routes>
