@@ -13,6 +13,8 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scrollbar-color: #503ae7 #e5e5e5;
+  scrollbar-width: thin;
 }
 
 input[type="submit"] {
@@ -27,6 +29,8 @@ input[type="submit"] {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scrollbar-color: #503ae7 #e5e5e5;
+  scrollbar-width: thin;
 }
 
 body {
@@ -39,6 +43,24 @@ body {
   min-height: 100%;
   color: #000000;
   background: #fff;
+  scrollbar-color: #503ae7 #e5e5e5;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e5e5e5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #503ae7;
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #503ae7;
 }
 
 a {
@@ -210,7 +232,6 @@ p {
   line-height: 1.5;
   font-weight: 400;
 }
-
 
 @media (max-width: 991px) {
   h1,

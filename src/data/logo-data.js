@@ -21,6 +21,7 @@ import Card_Info_Icon from "../images/icons/card-info-icon1.png";
 import About_Info_Icon from "../images/about-info-icon.png";
 import Team_Img from "../images/team-img-1.png";
 import Logo from "../images/icons/our-sponsers-logo-sec.png";
+import BlogImg from "../images/blog-img.png";
 
 export const DataList_Logo = [
   { id: 1, image: logo1 },
@@ -284,5 +285,55 @@ export const Our_Sponser_Logo_Sec = [
   {
     id: 6,
     image: Logo,
+  },
+];
+
+export const Blog_List_Data = [
+  {
+    id: 1,
+    image: BlogImg,
+    title: "How to build a world-class business brand",
+    info: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.",
+    btntxt: "Read Now",
+  },
+
+  {
+    id: 2,
+    image: BlogImg,
+    title: "Getting the first 100 customers for your business",
+    info: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.",
+    btntxt: "Read Now",
+  },
+
+  {
+    id: 3,
+    image: BlogImg,
+    title: "Should I raise money for my startup, or not?",
+    info: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.",
+    btntxt: "Read Now",
+  },
+
+  {
+    id: 4,
+    image: BlogImg,
+    title: "How to build a world-class business brand",
+    info: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.",
+    btntxt: "Read Now",
+  },
+
+  {
+    id: 5,
+    image: BlogImg,
+    title: "Getting the first 100 customers for your business",
+    info: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.",
+    btntxt: "Read Now",
+  },
+
+  {
+    id: 6,
+    image: BlogImg,
+    title: "Getting the first 100 customers for your business",
+    info: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.",
+    btntxt: "Read Now",
   },
 ];

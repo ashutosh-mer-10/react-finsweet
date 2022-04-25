@@ -6,7 +6,7 @@ import icon from "../images/icons/cta-iconone.png";
 const Ctabanneone = () => {
   return (
     <>
-      <div className="cta-banner-one-wrap section">
+      <div className="cta-banner-one-wrap section ">
         <div className="container">
           <Row>
             <Col lg={3}>

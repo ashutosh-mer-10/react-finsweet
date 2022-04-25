@@ -175,6 +175,23 @@
   .our-sponsers-sec .card.bc-sp {
     height: 240px;
   }
+
+  .footer-wrap:after {
+    height: 50%;
+    top: -150px;
+  }
+
+  .bloglist-wrap .row .col-lg-4 {
+    margin: 1.5rem 0;
+  }
+
+  .blog-banner-wrap .content {
+    margin-bottom: 30px;
+  }
+
+  .bloglist-wrap .title {
+    margin-bottom: 1.5rem;
+  }
 }
 
 @media (max-width: 767px) {
@@ -248,5 +265,13 @@
 
   .recentep-data-box {
     margin-top: 2rem;
+  }
+
+  .footer-wrap:after {
+    height: 50%;
+    top: -180px;
+  }
+  .bloglist-wrap .row .col-lg-4 {
+    margin: 1rem 0;
   }
 }

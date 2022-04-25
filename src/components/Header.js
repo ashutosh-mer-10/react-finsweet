@@ -14,7 +14,7 @@ const Header = () => {
     setToggleMenu(!toggleButton);
   };
   return (
-    <d>
+    <>
       <div className="header-wrap">
         <header>
           <div className="container d-flex flex-wrap">
@@ -55,7 +55,7 @@ const Header = () => {
                     </Link>
                   </li>
                   <li className="nav-link">
-                    <Link to="#" className="nav-item">
+                    <Link to="/blog" className="nav-item">
                       Blog
                     </Link>
                   </li>
@@ -95,7 +95,7 @@ const Header = () => {
           </div>
         </header>
       </div>
-    </d>
+    </>
   );
 };
 
